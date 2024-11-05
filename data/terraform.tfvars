@@ -1,0 +1,6 @@
+aws_region    = "us-west-2"
+project_name  = "data-pipeline-project"
+glue_role_arn = "arn:aws:iam::<ACCOUNT_ID>:role/AWSGlueServiceRole"
+db_username   = "your_db_username"
+db_password   = "your_db_password"
+db_name       = "your_database_name"

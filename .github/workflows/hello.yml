@@ -7,5 +7,5 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Repo: ${{ github.repository }} | SHA: ${{ github.sha }}"
+        run: echo "Repo: ${{ github.repository }} | SHA: ${{ github.sha }}"
 

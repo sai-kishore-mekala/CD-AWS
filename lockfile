@@ -1,0 +1,4 @@
+npm install          # generates package-lock.json
+git add package-lock.json
+git commit -m "Add lockfile"
+git push

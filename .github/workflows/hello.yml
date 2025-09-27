@@ -1,5 +1,7 @@
 name: Hello CI
+
 on: [push, pull_request]
+
 jobs:
   hello:
     runs-on: ubuntu-latest
@@ -7,5 +9,5 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
+      - name: Print repository info
         run: echo "Repo: ${{ github.repository }} | SHA: ${{ github.sha }}"
-
